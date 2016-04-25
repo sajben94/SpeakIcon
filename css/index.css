@@ -1,0 +1,113 @@
+* {
+    /*-webkit-tap-highlight-color: rgba(0,0,0,0);*/
+    box-sizing: border-box;
+    /*outline: 1px solid red;*/
+}
+
+body {
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    margin:0px;
+    padding:0px;
+    background: #000;
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+
+@font-face {
+  font-family: 'book';
+  src: url('../font/book.eot?35672519');
+  src: url('../font/book.eot?35672519#iefix') format('embedded-opentype'),
+       url('../font/book.woff?35672519') format('woff'),
+       url('../font/book.ttf?35672519') format('truetype'),
+       url('../font/book.svg?35672519#book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.demo-icon{
+  font-family: "book";
+  font-style: normal;
+  font-size:   4em;
+  border-radius: 50%;
+  border: 5px solid black;
+  display: inline-block;
+  width: 1.7em;
+  height: 1.7em;
+  padding-top: 18px;
+  margin: 2px;
+
+  background: white;
+}
+
+/*
+.menu-icon{
+  background: black;
+  color: #fff;
+}*/
+
+.weather{
+  background: #0ad;
+  color: #fff;
+}
+
+.fun{
+  background: #ae5ccb;
+  color: #fff;
+}
+
+.trip{
+  background: blue;
+  color: #fff;
+}
+
+.food{
+  background: #e47400;
+  color: #fff;
+}
+
+.health{
+  background:#d52626;
+  color: #fff;
+}
+
+.finance{
+  background: #bada55;
+}
+
+.sport{
+  background: #fff;
+  color: #2fa300;
+}
+
+.communicate{
+  background: #6ba828;
+  color:  #fff;;
+}
+
+.other{
+  background: #ffc800
+}
+
+ul.list{
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    left: 3%;
+    background: black;
+}
+
+li.dlist {
+  display: inline-block;
+  font-size: 0.70em;
+  border-radius: 50%;
+}
+
+li .demo-icon{
+  padding-top: 10px;
+  /*padding-top:18px;*/
+}

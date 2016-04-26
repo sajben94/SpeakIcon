@@ -44,10 +44,10 @@
           });
           mc.on("press", function(ev) {
             // $('#'+addID).html('<i class="demo-icon icon-cancel">&#xe846;</i>');
-            if (!$('.list').find('i').hasClass('class-cancel')) {
+          
 
               var dockIcons = $('.list').clone().find('i').attr('id','menu').addClass('menu-icon large');
-            }
+
             $('.icon-wrapper').html(dockIcons);
             $('.icon-line').hide();
             // $('.icon-wrapper').prepend('<i id="menu" class="demo-icon menu-icon ">&#xe892;</i>');
